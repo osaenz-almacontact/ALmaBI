@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cargos" EntityType="Model.Cargos" />
+    <EntitySet Name="Operaciones" EntityType="Model.Operaciones" />
+    <EntitySet Name="Perfiles" EntityType="Model.Perfiles" />
+    <EntitySet Name="TipoReporte" EntityType="Model.TipoReporte" />
+    <EntitySet Name="Estado" EntityType="Model.Estado" />
+    <EntitySet Name="Logs" EntityType="Model.Logs" />
+    <EntitySet Name="Areas" EntityType="Model.Areas" />
+    <EntitySet Name="Solicitudes" EntityType="Model.Solicitudes" />
+    <EntitySet Name="UsuarioReporte" EntityType="Model.UsuarioReporte" />
+    <EntitySet Name="Usuarios" EntityType="Model.Usuarios" />
+    <EntitySet Name="MenuOperaciones" EntityType="Model.MenuOperaciones" />
+    <EntitySet Name="Reportes" EntityType="Model.Reportes" />
+    <EntitySet Name="Grupos" EntityType="Model.Grupos" />
+  </EntityContainer>
+  <EntityType Name="Cargos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Operaciones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Perfiles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TipoReporte">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Logs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Formulario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Accion" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="IdUsuario" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Areas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Solicitudes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CorreoSolicitante" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="Estado" Type="Int32" />
+  </EntityType>
+  <EntityType Name="UsuarioReporte">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdReporte" Type="Int32" />
+    <Property Name="IdUsuario" Type="Int32" />
+    <Property Name="FechaActualizaion" Type="DateTime" Precision="3" />
+    <Property Name="CreadoPor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ActualizadoPor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Salt" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Password" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="IdCargo" Type="Int32" />
+    <Property Name="IdOperacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="TelContacto" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IdEstado" Type="Int32" />
+    <Property Name="IdPerfil" Type="Int32" />
+    <Property Name="IdArea" Type="Int32" />
+  </EntityType>
+  <EntityType Name="MenuOperaciones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Titulo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Url" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Categoria" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IdUsuario" Type="Int32" />
+    <Property Name="Estado" Type="Int32" />
+    <Property Name="FechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="FechaActualizaion" Type="DateTime" Precision="3" />
+    <Property Name="CreadoPor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ActualizadoPor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IdArea" Type="Int32" />
+    <Property Name="IdOperacion" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Reportes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IdTipo" Type="Int32" />
+    <Property Name="Ubicacion" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="IdEstado" Type="Int32" />
+    <Property Name="FechaCreacion" Type="DateTime" Precision="0" />
+    <Property Name="IdUsuarioCarga" Type="Int32" />
+    <Property Name="IdGrupo" Type="Int32" />
+    <Property Name="IdPerfil" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Grupos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Precision="0" />
+    <Property Name="IdEstado" Type="Int32" />
+    <Property Name="RutaIcono" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="RutaBanner" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

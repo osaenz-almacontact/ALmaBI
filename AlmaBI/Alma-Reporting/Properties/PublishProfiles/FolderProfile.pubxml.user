@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\osaenz\Documents\Publish\AlmaBI</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>04/14/2021 10:49:26</publishTime>
+    </File>
+    <File Include="bin/Alma-Reporting.dll">
+      <publishTime>09/17/2021 14:22:30</publishTime>
+    </File>
+    <File Include="bin/Alma-Reporting.pdb">
+      <publishTime>09/17/2021 14:22:30</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
+      <publishTime>03/15/2019 11:59:54</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>05/16/2019 12:33:30</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.AspNet.FriendlyUrls.resources.dll">
+      <publishTime>07/30/2013 17:01:46</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Optimization.resources.dll">
+      <publishTime>02/11/2014 15:28:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>07/30/2013 16:57:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>09/06/2013 11:20:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>09/06/2013 11:20:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>04/14/2021 10:49:26</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>04/14/2021 10:49:26</publishTime>
+    </File>
+    <File Include="Content/css/nucleo-icons.css">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/css/nucleo-svg.css">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/css/soft-ui-dashboard.css">
+      <publishTime>09/08/2021 11:39:28</publishTime>
+    </File>
+    <File Include="Content/css/soft-ui-dashboard.css.map">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/css/soft-ui-dashboard.min.css">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/fonts/nucleo-icons.eot">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/fonts/nucleo-icons.svg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/fonts/nucleo-icons.ttf">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/fonts/nucleo-icons.woff">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/fonts/nucleo-icons.woff2">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/fonts/nucleo.eot">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/fonts/nucleo.ttf">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/fonts/nucleo.woff">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/fonts/nucleo.woff2">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/apple-icon.png">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_alma.jpg">
+      <publishTime>09/08/2021 13:01:30</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_alma.png">
+      <publishTime>09/07/2021 11:46:50</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_claro.jpg">
+      <publishTime>09/08/2021 13:01:30</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_claro.png">
+      <publishTime>09/07/2021 11:05:31</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_latam.jpg">
+      <publishTime>09/08/2021 13:01:31</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_latam.png">
+      <publishTime>09/07/2021 11:05:31</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_leal.jpg">
+      <publishTime>09/08/2021 13:01:32</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_leal.png">
+      <publishTime>09/07/2021 11:05:31</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_nukke.jpg">
+      <publishTime>09/08/2021 13:01:32</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_shopee.jpg">
+      <publishTime>09/08/2021 13:01:29</publishTime>
+    </File>
+    <File Include="Content/img/Banner/banner_shopee.png">
+      <publishTime>09/07/2021 11:05:31</publishTime>
+    </File>
+    <File Include="Content/img/bruce-mars.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/Carrusel/Carrusel1.png">
+      <publishTime>09/02/2021 17:29:26</publishTime>
+    </File>
+    <File Include="Content/img/Carrusel/Carrusel2.png">
+      <publishTime>09/02/2021 17:39:00</publishTime>
+    </File>
+    <File Include="Content/img/Carrusel/Carrusel3.png">
+      <publishTime>09/02/2021 17:27:48</publishTime>
+    </File>
+    <File Include="Content/img/curved-images/curved-8.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/curved-images/curved0.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/curved-images/curved14.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/curved-images/curved6.jpg">
+      <publishTime>09/02/2021 13:08:36</publishTime>
+    </File>
+    <File Include="Content/img/curved-images/white-curved.jpeg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/favicon.png">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/home-decor-1.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/home-decor-2.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/home-decor-3.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/logo leal.png">
+      <publishTime>09/08/2021 12:02:39</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/logo_almacontact.png">
+      <publishTime>09/07/2021 11:03:47</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/Logo_claro.png">
+      <publishTime>09/07/2021 11:03:47</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/logo_latam.png">
+      <publishTime>09/07/2021 11:03:47</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/logo_leal.png">
+      <publishTime>09/08/2021 12:02:39</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/logo_nukke.png">
+      <publishTime>09/13/2021 15:49:05</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/logo_samsung.png">
+      <publishTime>09/13/2021 15:49:05</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/logo_shopee.png">
+      <publishTime>09/07/2021 11:03:47</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/Perfil.png">
+      <publishTime>09/03/2021 12:09:06</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/Sol_Pend.png">
+      <publishTime>09/02/2021 17:16:13</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/Sol_Resp.png">
+      <publishTime>09/02/2021 17:16:13</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/Usr_Activo.png">
+      <publishTime>09/02/2021 17:12:06</publishTime>
+    </File>
+    <File Include="Content/img/Iconos/Usr_Inactivo.png">
+      <publishTime>09/02/2021 17:12:05</publishTime>
+    </File>
+    <File Include="Content/img/illustrations/Descripción8.png">
+      <publishTime>09/02/2021 16:06:28</publishTime>
+    </File>
+    <File Include="Content/img/illustrations/rocket-white.png">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/ivana-square.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/ivancik.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/kal-visuals-square.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/logo-ct.png">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/logos/AlmaBI.png">
+      <publishTime>04/27/2021 10:47:50</publishTime>
+    </File>
+    <File Include="Content/img/logos/mastercard.png">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/logos/visa.png">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/marie.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/shapes/waves-white.svg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/small-logos/logo-atlassian.svg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/small-logos/logo-invision.svg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/small-logos/logo-jira.svg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/small-logos/logo-slack.svg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/small-logos/logo-spotify.svg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/small-logos/logo-webdev.svg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/small-logos/logo-xd.svg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/team-1.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/team-2.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/team-3.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/team-4.jpg">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/img/Textura.PNG">
+      <publishTime>08/13/2021 11:13:05</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/avatars/_avatar-group.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/avatars/_avatar.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/bootstrap-grid.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/bootstrap-reboot.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/bootstrap-utilities.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/bootstrap.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/forms/_floating-labels.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/forms/_form-check.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/forms/_form-control.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/forms/_form-range.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/forms/_form-select.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/forms/_form-text.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/forms/_input-group.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/forms/_labels.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/forms/_validation.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/helpers/_clearfix.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/helpers/_colored-links.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/helpers/_position.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/helpers/_ratio.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/helpers/_stretched-link.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/helpers/_text-truncation.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/helpers/_visually-hidden.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_alert.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_border-radius.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_box-shadow.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_breakpoints.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_buttons.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_caret.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_clearfix.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_container.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_deprecate.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_forms.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_gradients.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_grid.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_image.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_list-group.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_lists.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_pagination.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_reset-text.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_resize.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_table-variants.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_text-truncate.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_transition.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_utilities.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/mixins/_visually-hidden.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/utilities/_api.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/vendor/_rfs.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_accordion.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_alert.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_badge.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_breadcrumb.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_button-group.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_buttons.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_card.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_carousel.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_close.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_containers.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_dropdown.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_forms.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_functions.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_grid.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_helpers.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_images.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_list-group.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_mixins.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_modal.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_nav.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_navbar.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_offcanvas.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_pagination.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_popover.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_progress.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_reboot.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_root.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_spinners.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_tables.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_toasts.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_tooltip.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_transitions.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_type.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_utilities.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/bootstrap/_variables.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/breadcrumbs/_breadcrumb.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/cards/card-background.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/custom/_styles.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/custom/_variables.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/forms/_form-check.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/forms/_form-select.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/forms/_form-switch.scss">
+      <publishTime>04/14/2021 11:29:08</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/forms/_forms.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/forms/_input-group.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/forms/_inputs.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/forms/_labels.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/mixins/mixins.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/mixins/_hover.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/mixins/_social-buttons.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/theme.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_animations.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_avatars.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_breadcrumb.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_cards.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_dropdowns.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_fixed-plugin.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_form-switch.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_header.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_info-areas.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_misc.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_navbar-vertical.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_navbar.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_pagination.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_rtl.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_social-buttons.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_table.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_timeline.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/variables/_utilities.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_alert.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_badge.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_buttons.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_cards.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_dropdown.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_dropup.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_fixed-plugin.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_footer.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_forms.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_gradients.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_header.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_info-areas.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_misc.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_nav.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_navbar-vertical.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_navbar.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_pagination.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_popovers.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_progress.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_rtl.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_social-buttons.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_tables.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_timeline.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_tooltips.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_typography.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_utilities.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Content/scss/soft-ui-dashboard/_variables.scss">
+      <publishTime>04/14/2021 11:29:10</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>09/02/2021 17:39:42</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>04/14/2021 10:49:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/14/2021 10:49:36</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/14/2021 10:49:36</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/14/2021 10:49:36</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/14/2021 10:49:36</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/14/2021 10:49:36</publishTime>
+    </File>
+    <File Include="GestionDeUsuarios/ActivacionDeUsuarios.aspx">
+      <publishTime>08/10/2021 18:04:37</publishTime>
+    </File>
+    <File Include="GestionDeUsuarios/AdministracionDeUsuarios.aspx">
+      <publishTime>08/24/2021 11:51:48</publishTime>
+    </File>
+    <File Include="GestionDeUsuarios/Perfil.aspx">
+      <publishTime>09/14/2021 14:43:25</publishTime>
+    </File>
+    <File Include="GestionMenu/ActivarMenu.aspx">
+      <publishTime>05/13/2021 10:56:52</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/14/2021 10:49:26</publishTime>
+    </File>
+    <File Include="Login/Login.aspx">
+      <publishTime>09/15/2021 10:16:26</publishTime>
+    </File>
+    <File Include="Login/SolicitarPasword.aspx">
+      <publishTime>09/15/2021 10:27:59</publishTime>
+    </File>
+    <File Include="Model/ReportingModelo.edmx.diagram">
+      <publishTime>09/07/2021 10:45:23</publishTime>
+    </File>
+    <File Include="ReportesForms/AdministracionDeGrupos.aspx">
+      <publishTime>08/09/2021 15:51:49</publishTime>
+    </File>
+    <File Include="ReportesForms/AgregarReporte.aspx">
+      <publishTime>08/23/2021 12:36:16</publishTime>
+    </File>
+    <File Include="ReportesForms/Personalizacion.aspx">
+      <publishTime>08/24/2021 14:42:33</publishTime>
+    </File>
+    <File Include="ReportesForms/VerReportesBI.aspx">
+      <publishTime>09/08/2021 12:54:45</publishTime>
+    </File>
+    <File Include="Scripts/core/bootstrap.min.js">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/core/popper.min.js">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery/jquery.js">
+      <publishTime>04/19/2021 15:34:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery/jquery.min.js">
+      <publishTime>04/19/2021 15:34:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery/jquery.min.map">
+      <publishTime>04/19/2021 15:34:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery/jquery.slim.js">
+      <publishTime>04/19/2021 15:34:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery/jquery.slim.min.js">
+      <publishTime>04/19/2021 15:34:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery/jquery.slim.min.map">
+      <publishTime>04/19/2021 15:34:10</publishTime>
+    </File>
+    <File Include="Scripts/plugins/bootstrap-notify.js">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/plugins/Chart.extension.js">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/plugins/chartjs.min.js">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/plugins/perfect-scrollbar.min.js">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/plugins/smooth-scrollbar.min.js">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/soft-ui-dashboard.js">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/soft-ui-dashboard.js.map">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/soft-ui-dashboard.min.js">
+      <publishTime>04/19/2021 15:28:14</publishTime>
+    </File>
+    <File Include="Scripts/Toast/toastr.js.map">
+      <publishTime>04/19/2021 15:31:44</publishTime>
+    </File>
+    <File Include="Scripts/Toast/toastr.min.js">
+      <publishTime>04/19/2021 15:31:44</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>09/07/2021 10:56:27</publishTime>
+    </File>
+    <File Include="Site.Mobile.Master">
+      <publishTime>09/02/2021 16:50:11</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>04/14/2021 10:49:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/24/2021 16:11:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
