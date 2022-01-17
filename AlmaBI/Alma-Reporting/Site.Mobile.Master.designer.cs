@@ -78,6 +78,15 @@ namespace Alma_Reporting
         protected global::System.Web.UI.HtmlControls.HtmlAnchor LinkConfiguracionMenu;
 
         /// <summary>
+        /// Control LinkPersonalizacionMenu.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor LinkPersonalizacionMenu;
+
+        /// <summary>
         /// Control LiOpcionesReportes.
         /// </summary>
         /// <remarks>

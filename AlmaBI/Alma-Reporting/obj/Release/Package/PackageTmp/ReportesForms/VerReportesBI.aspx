@@ -1,10 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="VerReportesBI.aspx.cs" Inherits="Alma_Reporting.ReportesForms.VerReportesBI" EnableEventValidation="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <%--<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">--%>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/AlmaBI/Scripts/jquery/jquery.js"></script>
-        <style>
-         .resizable-iframe {
+    <style>
+        .resizable-iframe {
             overflow: visible;
             height: auto;
             width: auto;
@@ -12,7 +14,7 @@
         }
 
             .resizable-iframe iframe {
-               /* position: relative;
+                /* position: relative;
                 z-index: -1;*/
             }
 
@@ -20,7 +22,6 @@
             position: absolute;
             z-index: 99999;
             background: #EAEAEA;
-            
         }
 
         /*scroller*/
@@ -54,7 +55,6 @@
             overflow: hidden;
             margin-top: -0.5%;
         }
-
 
 
         /*left arrow styles*/
@@ -104,8 +104,18 @@
             opacity: 0;
         }
 
+        .col-lg-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
         /*mobile responsive*/
-        @media (max-width: 575.98px) {
+        @media (max-width: 275.98px) {
 
             .padding-align {
                 padding: 0 !important;
@@ -131,7 +141,7 @@
         </div>
       </div>
     </div>--%>
-    <div class="page-header min-height-100 border-radius-xl mt-4" runat="server" Id="DivBanner" style="background-position-y: 50%; margin-top: 0px !important">
+    <div class="page-header min-height-100 border-radius-xl mt-4" runat="server" id="DivBanner" style="background-position-y: 50%; margin-top: 0px !important">
         <span class="mask bg-gradient-secondary opacity-0"></span>
     </div>
     <div class="card card-body blur shadow-blur mx-4 mt-n6">
@@ -172,12 +182,15 @@
 
     <br />
     <br />
-    
+
     <div class="container-fluid">
         <div class="embed-responsive">
             <div class="resizable-iframe">
                 <div style="height: 45px; width: 150px; bottom: 0px; right: 0px" class="iframe-cover"></div>
                 <iframe class="col-lg-12 col-md-12 col-sm-12 embed-responsive-item" runat="server" id="IframeReporte" src="" style="height: 600px"></iframe>
+            </div>
+            <div class="row">
+                <asp:PlaceHolder ID="iframeDiv" runat="server"/>
             </div>
         </div>
     </div>

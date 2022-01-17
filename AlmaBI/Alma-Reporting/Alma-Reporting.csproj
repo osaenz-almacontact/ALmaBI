@@ -123,6 +123,7 @@
     <Content Include="Content\img\apple-icon.png" />
     <Content Include="Content\img\Banner\banner_alma.jpg" />
     <Content Include="Content\img\Banner\banner_claro.jpg" />
+    <Content Include="Content\img\Banner\banner_ficohsa.jpg" />
     <Content Include="Content\img\Banner\banner_latam.jpg" />
     <Content Include="Content\img\Banner\banner_leal.jpg" />
     <Content Include="Content\img\Banner\banner_nukke.jpg" />
@@ -140,6 +141,8 @@
     <Content Include="Content\img\home-decor-1.jpg" />
     <Content Include="Content\img\home-decor-2.jpg" />
     <Content Include="Content\img\home-decor-3.jpg" />
+    <Content Include="Content\img\Iconos\logo_ficohsa.png" />
+    <Content Include="Content\img\Iconos\logo_hisense.png" />
     <Content Include="Content\img\Iconos\logo_leal.png" />
     <Content Include="Content\img\Iconos\logo_almacontact.png" />
     <Content Include="Content\img\Iconos\Logo_claro.png" />

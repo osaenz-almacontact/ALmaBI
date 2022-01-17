@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace Alma_Reporting
 {
@@ -15,12 +17,14 @@ namespace Alma_Reporting
         static OperacionContexto contextoOperaciones = new OperacionContexto();
         static LoginContexto contextoUsuarios = new LoginContexto();
         static AreaContexto contextoAreas = new AreaContexto();
+        static GrupoContexto contextoGrupo = new GrupoContexto();
 
         List<MenuOperaciones> ListMenu = contextoMenu.ObtenerMenuOperaciones();
 
         List<Operaciones> ListOperaciones = contextoOperaciones.ObtenerOperaciones();
         List<Usuarios> ListUsuarios = contextoUsuarios.ObtenerUsuarios();
         List<Areas> ListAreas = contextoAreas.ObtenerAreas();
+        List<Grupos> ListGrupos = contextoGrupo.ObtenerGrupos();
 
         int IdUsuario = 0;
         int IdPerfil = 0;
@@ -57,6 +61,7 @@ namespace Alma_Reporting
 
                 }
             }
+
         }
 
         public void ObtenerMenuOperaciones()
@@ -64,6 +69,7 @@ namespace Alma_Reporting
             if (!IsPostBack)
             {
                 var query = (from MenuOperacion in ListMenu
+                             join Grupo in ListGrupos on MenuOperacion.IdArea equals Grupo.Id
                              select new
                              {
                                  Id = MenuOperacion.Id,
@@ -73,18 +79,20 @@ namespace Alma_Reporting
                                  Operacion = MenuOperacion.Titulo,
                                  IdPerfil = MenuOperacion.IdUsuario,
                                  Estado = MenuOperacion.Estado,
-                                 IdArea = MenuOperacion.IdArea
+                                 IdArea = MenuOperacion.IdArea,
+                                 RutaIciono = Grupo.RutaIcono,
+                                 RutaBanner = Grupo.RutaBanner
                              }).Where(est => est.Estado == 1).ToList();
 
 
                 if (Perfil == "Administrador")
                 {
-                    RepterMenuOperaciones.DataSource = query.Where(usu => usu.IdUsuario == IdUsuario).ToList();
+                    RepterMenuOperaciones.DataSource = query.Where(usu => usu.IdUsuario == IdUsuario).OrderBy(op => op.Operacion).ToList();
                     RepterMenuOperaciones.DataBind();
                 }
                 else if (Perfil == "Gerente")
                 {
-                    RepterMenuOperaciones.DataSource = query.Where(usu => usu.IdUsuario == IdUsuario).ToList();
+                    RepterMenuOperaciones.DataSource = query.Where(usu => usu.IdUsuario == IdUsuario).OrderBy(op => op.Operacion).ToList();
                     RepterMenuOperaciones.DataBind();
 
                     LiOpcioneAdicionales.Visible = false;
@@ -94,19 +102,21 @@ namespace Alma_Reporting
 
                     LiOpcionesReportes.Visible = false;
                     LinkAgregarReporte.Visible = false;
+                    LinkPersonalizacionMenu.Visible = false;
                 }
                 else if (Perfil == "Gestor de reportes")
                 {
-                    RepterMenuOperaciones.DataSource = query.Where(usu => usu.IdUsuario == IdUsuario).ToList();
+                    RepterMenuOperaciones.DataSource = query.Where(usu => usu.IdUsuario == IdUsuario).OrderBy(op => op.Operacion).ToList();
                     RepterMenuOperaciones.DataBind();
 
                     LiOpcioneAdicionales.Visible = false;
                     LinkActivacionDeUsuarios.Visible = false;
                     LinkAdministracionDeUsuarios.Visible = false;
+                    LinkPersonalizacionMenu.Visible = false;
                 }
                 else if (Perfil == "Visualizador")
                 {
-                    RepterMenuOperaciones.DataSource = query.Where(usu => usu.IdUsuario == IdUsuario).ToList();
+                    RepterMenuOperaciones.DataSource = query.Where(usu => usu.IdUsuario == IdUsuario).OrderBy(op => op.Operacion).ToList();
                     RepterMenuOperaciones.DataBind();
 
                     LiOpcioneAdicionales.Visible = false;
@@ -116,11 +126,13 @@ namespace Alma_Reporting
 
                     LiOpcionesReportes.Visible = false;
                     LinkAgregarReporte.Visible = false;
+                    LinkPersonalizacionMenu.Visible = false;
                 }
 
             }
 
         }
+
 
 
         protected void BtnCerrarSesion_Click(object sender, EventArgs e)

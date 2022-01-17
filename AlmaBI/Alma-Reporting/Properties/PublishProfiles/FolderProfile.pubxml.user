@@ -11,10 +11,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>04/14/2021 10:49:26</publishTime>
     </File>
     <File Include="bin/Alma-Reporting.dll">
-      <publishTime>09/17/2021 14:22:30</publishTime>
+      <publishTime>12/28/2021 14:48:57</publishTime>
     </File>
     <File Include="bin/Alma-Reporting.pdb">
-      <publishTime>09/17/2021 14:22:30</publishTime>
+      <publishTime>12/28/2021 14:48:57</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>09/10/2013 16:29:20</publishTime>
@@ -902,7 +902,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/24/2021 11:51:48</publishTime>
     </File>
     <File Include="GestionDeUsuarios/Perfil.aspx">
-      <publishTime>09/14/2021 14:43:25</publishTime>
+      <publishTime>11/23/2021 14:27:04</publishTime>
     </File>
     <File Include="GestionMenu/ActivarMenu.aspx">
       <publishTime>05/13/2021 10:56:52</publishTime>
@@ -929,7 +929,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/24/2021 14:42:33</publishTime>
     </File>
     <File Include="ReportesForms/VerReportesBI.aspx">
-      <publishTime>09/08/2021 12:54:45</publishTime>
+      <publishTime>12/28/2021 11:24:35</publishTime>
     </File>
     <File Include="Scripts/core/bootstrap.min.js">
       <publishTime>04/19/2021 15:28:14</publishTime>
@@ -986,10 +986,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>04/19/2021 15:31:44</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>09/07/2021 10:56:27</publishTime>
+      <publishTime>11/23/2021 14:28:12</publishTime>
     </File>
     <File Include="Site.Mobile.Master">
-      <publishTime>09/02/2021 16:50:11</publishTime>
+      <publishTime>12/28/2021 14:45:48</publishTime>
     </File>
     <File Include="ViewSwitcher.ascx">
       <publishTime>04/14/2021 10:49:42</publishTime>

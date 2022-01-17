@@ -186,7 +186,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mb-3" style="display:none">
+                    <!---END TAB--->
+                    <div class="accordion-item mb-3" >
                         <h5 class="accordion-header" id="headingThree">
                             <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Horario
@@ -565,7 +566,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mb-3" style="display:none">
+                    <!---END TAB--->
+                    <div class="accordion-item mb-3" >
                         <h5 class="accordion-header" id="headingFour">
                             <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 Indicadores

@@ -318,17 +318,17 @@
     </form>
 </body>
 
-<script src="/AlmaBI/Scripts/core/popper.min.js"></script>
+<%--<script src="/AlmaBI/Scripts/core/popper.min.js"></script>
 <script src="/AlmaBI/Scripts/core/bootstrap.min.js"></script>
 <script src="/AlmaBI/Scripts/plugins/smooth-scrollbar.min.js"></script>
 <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-<script src="/AlmaBI/Scripts/soft-ui-dashboard.min.js"></script>
+<script src="/AlmaBI/Scripts/soft-ui-dashboard.min.js"></script>--%>
 
-<%--<script src="/Scripts/core/popper.min.js"></script>
+<script src="/Scripts/core/popper.min.js"></script>
 <script src="/Scripts/core/bootstrap.min.js"></script>
 <script src="/Scripts/plugins/smooth-scrollbar.min.js"></script>
 <!-- Control for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-<script src="/Scripts/soft-ui-dashboard.min.js"></script>--%>
+<script src="/Scripts/soft-ui-dashboard.min.js"></script>
 
 <script>
     var win = navigator.platform.indexOf('Win') > -1;

@@ -123,6 +123,12 @@ namespace Alma_Reporting.ReportesForms
                              }).Where(op => op.IdOperacion == IdArea).Where(es => es.Estado == 1).Where(id => id.Id == Id).FirstOrDefault();
 
                 IframeReporte.Src = query.Ubicacion.ToString();
+                if(IdUsuario== 3)
+                {
+                    iframeDiv.Controls.Add(new LiteralControl("<iframe src=\"" + query.Ubicacion.ToString() + "\"></iframe><br />"));
+                    IframeReporte.Attributes.Add("src", query.Ubicacion.ToString());
+                }
+                
                 GuardarLog("Visualización de reporte: " + query.Ubicacion.ToString());
             }
             catch (Exception ex)
